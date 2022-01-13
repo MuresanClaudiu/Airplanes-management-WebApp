@@ -1,0 +1,378 @@
+body {
+	margin: auto;
+	padding: auto;
+	background-color: #0F1626;
+}
+
+
+#navigation-container ul li {
+	list-style-type: none;
+	color: black;
+	font-weight: bold;
+	display:inline;
+	margin:25px;
+	float:left;
+}
+
+.navigation-bar .activ a {
+	background-color:#0F1626;
+	color: white;
+	border-radius:3px;
+	margin:22px;
+	padding:2px;
+}
+
+#navigation-container ul li a {
+	text-decoration: none;
+	font-size:17px;
+	font-family: 'Baloo Chettan', cursive;
+}
+
+#navigation-container {
+
+}
+
+.navigation-bar ul {
+  padding: auto;
+  margin:auto;
+  display:inline-block;
+
+}
+
+.navigation-bar img {
+	float:left;
+	height:70px;
+	margin-left: 90px;
+}
+
+
+.navigation-bar {
+	height: 70px;
+	width: 100%;
+	background-color: #FEDC3D;
+	z-index: 1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.mid-body div {
+	height:300px;
+	background-image: url("mid.jpg");
+	background-size:cover;
+	text-align: center;
+	
+}
+
+.mid-body .parinte-bloc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.mid-body .culoare-bloc {
+	height:100%;
+	width: 100%;
+	background-image: url("culoare.jpg");
+	position: absolute;
+	width: 700px;
+	opacity: 0.5;
+	margin-left:200px;
+	border:2px solid white;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.mid-body .culoare-bloc p {
+	color:white;
+	margin-top: 400px;
+	opacity: 1;
+	font-size: 14px;
+	padding: 1.5em;
+	font-family: 'Baloo Chettan', cursive;
+}
+
+
+.mid-body h1 {
+	display:inline-block;
+	margin-left:400px;
+	margin-bottom: 150px;
+	font-size: 55px;
+	z-index: 1;
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-weight: bold;
+	color:white;
+}
+
+
+.column2 {
+	float:left;
+	width: 33.33%;
+}
+
+.column2 h2 {
+	text-align: center;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.column2 img {
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	
+}
+
+.dotari {
+ height:200px;
+ width: 200px;
+}
+
+.column {
+	width: 50%;
+}
+
+.column img {
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	height:255px;
+	width: 330px;
+	border:2px solid white;
+}
+
+.row1 {
+	display: flex;
+}
+
+.row1 .column h2 {
+	font-size:19px;
+	text-align: center;
+	color:white;
+	font-family: 'ZCOOL XiaoWei', serif;
+	text-transform: uppercase;
+
+}
+
+.row2 p{
+	font-weight: bold;
+	color: #0F1626;
+	box-shadow: 5px 10px #0F1626;
+	margin:20px;
+	border:2px solid #0F1626;
+}
+
+.row2  {
+	background-image:url("adn.jpg");
+	height: 450px;
+	width: auto;
+	background-size: cover;
+	display:flex;
+
+}
+
+.culoare-background {
+	background-color: white;
+	width: 100%;
+	height: auto;
+	opacity: 0.9;
+}
+
+.culoare-background .column2 p  {
+	opacity: 1;
+	color: black;
+	font-family: 'Baloo Chettan', cursive;
+}
+
+.foot {
+	height:50px;
+}
+
+.row3{
+	display: flex;
+
+}
+
+.column3{
+	width: 50%;
+
+
+}
+
+.row3 .column3 {
+	text-align: center;
+	color:white;
+	margin-right: 150px;
+	margin-top:75px;
+	font-size: 17px;
+	font-family: 'Baloo Chettan', cursive;
+}
+
+.column3 h3 {
+	font-size: 25px;
+text-align: center;
+	color:white;
+
+}
+
+.row3 .column3 p {
+	font-size:14px;
+
+}
+
+.foot h4 {
+	font-style: italic;
+	font-size: 12px;
+	color:white;
+	opacity: 0.75;
+	float:right;
+}
+
+
+/* Pagina servicii.html */
+
+.servicii-body h1 {
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-weight: bold;
+	color:white;
+	font-size: 45px;
+	display:inline-block;
+	border-bottom: 1px solid white;
+}
+
+.servicii-body p {
+	font-family: 'Baloo Chettan', cursive;
+	color:white;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.servicii-body img {
+	
+	width: auto;
+}
+
+.harta-cul {
+	background-color:#1F2833;
+}
+
+.harta2-cul {
+	background-color:#1F2833;
+}
+
+.imagistica-cul h1 {
+	color:#1F2833
+}
+
+.imagistica-cul p {
+	color:#1F2833;
+}
+
+.harta{
+	height:700px;
+	width: auto;
+	background-image:url("lolh.jpg");
+	background-size: cover;
+}
+
+.harta2 {
+	height:600px;
+	width: auto;
+	background-image:url("harta2.jpg");
+	background-size: cover;
+}
+.harta3 {
+	height:600px;
+	width: auto;
+	background-image:url("harta3.jpg");
+	background-size: cover;
+}
+
+.hr {
+	height: 8px;
+	background-color: #FEDC3D;
+	width: auto;
+}
+
+.harta3-cul {
+	background-color:#1F2833;
+}
+
+
+
+
+
+
+.contact {
+	height:150px;
+	width: auto;
+	background-color:#1F2833;
+}
+
+.contact h1 {
+	margin-left:70px;
+	font-family: 'Baloo Chettan', cursive;
+	color:white;
+	border-bottom: 1px solid white;
+	display:inline-block;
+	margin-top:40px;
+}
+
+.contact-2 {
+	height:700px;
+	width: auto;
+	background-color: #C5C6C7;
+}
+
+.contact-2 h2 {
+	font-family: 'Baloo Chettan', cursive;
+	margin-left:70px;
+	margin-top:20px;
+}
+
+.contact-2 p {
+	font-family: 'ZCOOL XiaoWei', serif;
+	margin-left: 110px;
+	font-size: 17px;
+}
+
+.mass-body {
+	height:470px;
+	width: auto;
+	background-color:#C5C6C7;
+}
+
+.mass-body h1 {
+	margin-left:70px;
+	font-family: 'Baloo Chettan', cursive;
+	color:white;
+	border-bottom: 1px solid white;
+	display:inline-block;
+	margin-top:40px;
+}
+
+.mass-body p {
+	font-family: 'Baloo Chettan', cursive;
+	color:#1F2833;
+	font-size: 16px;
+	display: inline-block;
+	margin-left:95px;
+}
+
+.mass-body h2 {
+	margin-left:70px;
+	font-family: 'Baloo Chettan', cursive;
+	color:white;
+	display:inline-block;
+	margin-top:40px;
+}
+.mass-body h3 {
+	margin-left:70px;
+	font-family: 'Baloo Chettan', cursive;
+	color:white;
+	display:inline-block;
+	margin-top:40px;
+}
